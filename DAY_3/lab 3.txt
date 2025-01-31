@@ -1,0 +1,16 @@
+Write a function to check if a given string is a palindrome.
+
+Create a function to generate the first n Fibonacci numbers.
+
+Write a function that calculates the sum of all even numbers in a list.
+
+Write a function to count the number of vowels in a string.
+
+Create a function to reverse a string.
+
+Write a function that removes all spaces from a string.
+
+Write a function to check if a number is prime.
+
+Create a function that multiplies all elements of a list by a given number.
+

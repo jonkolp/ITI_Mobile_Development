@@ -1,0 +1,60 @@
+Exercise 1
+Create a list of integers: [5, 10, 15, 20, 25].
+Perform the following:
+Add 30 to the list.
+Remove the first element.
+Find all numbers greater than 15.
+Multiply all numbers in the list by 2.
+
+Exercise 2
+Create two sets: {1, 2, 3, 4, 5} and {3, 4, 5, 6, 7}.
+Perform the following:
+Find the union of both sets.
+Find the intersection of both sets.
+Find the difference between the first set and the second set.
+
+Exercise 3: 
+Create a map of products with their prices:
+{ "Laptop": 1500, "Phone": 800, "Tablet": 400 }.
+Perform the following:
+Add a new product: "Smartwatch": 200.
+Update the price of "Phone" to 850.
+Remove the "Tablet".
+Print all product names whose price is above 500.(bouns)
+
+Exercise 4:
+Declare a nullable String? variable name.
+If the variable is null, assign it the value "Guest".
+Print the value of name.
+
+Exercise 5:
+Create a list of integers that includes some null values: [1, null, 2, null, 3].
+Remove all null values from the list and print the updated list.
+
+Exercise 6: 
+Declare a nullable integer int? value.
+If value is null, set it to 100 using the null-aware assignment operator (??=).
+Print the value of value.
+
+Exercise 7: 
+Write an if-else statement that:
+Checks if a number x is positive, negative, or zero.
+
+
+Exercise 8: 
+Declare a variable role with the value "editor".
+Use a switch case to print:
+"Admin Access" if role is "admin".
+"Editor Access" if role is "editor".
+"Viewer Access" if role is "viewer".
+"No Access" for any other value.
+
+Exercise 9:
+Create a list of integers [1, 2, 3, 4, 5].
+Use a for loop to print the square of each number.
+
+Exercise 10:
+Use a while loop to print all numbers from 10 to 1 in reverse order.
+
+Exercise 11:
+Use a do-while loop to print the numbers from 1 to 5.
