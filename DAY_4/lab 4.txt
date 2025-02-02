@@ -1,0 +1,98 @@
+
+1-
+Create a base class `Animal` with:
+- A method `makeSound()` that prints: 
+  "Animal makes a sound."
+
+Create two subclasses:
+1. `Dog` → Overrides `makeSound()` to print "Dog barks."
+2. `Cat` → Overrides `makeSound()` to print "Cat meows."
+
+In `main()`, create `Dog` and `Cat` objects and call `makeSound()`.
+
+---  
+
+2-
+Create a `Car` class with:
+- Properties: `brand`, `model`, `year`
+- A constructor to initialize all properties.
+- A named constructor `Car.oldCar()` that defaults the `year` to 2000.
+
+Create and print details of two car objects (one using the default constructor and another using `Car.oldCar()`).
+
+---  
+
+3-
+Create a `Student` class with:
+- `name` (String)
+- `grade` (double)
+- A method `showInfo()` to print: 
+  "{name} has a grade of {grade}"
+
+In `main()`, create a list of 3 students and print their details.
+
+---  
+
+4-
+Create a `Book` class with:
+- Properties: `title`, `author`, `pages`
+- A constructor to initialize all properties.
+- A method `bookInfo()` that prints: 
+  "Title: {title}, Author: {author}, Pages: {pages}"
+
+In `main()`, create 3 Book objects and call `bookInfo()` on each.
+
+---  
+
+5-
+Create a `Temperature` class with:
+- A private field `_celsius` (double)
+- A constructor to initialize `_celsius`
+- Methods:
+  - `toFahrenheit()` → Returns temperature in Fahrenheit
+  - `toKelvin()` → Returns temperature in Kelvin
+
+Test by converting 25°C to Fahrenheit and Kelvin.
+
+
+6-
+Create a `Rectangle` class with:
+- Private fields `_width` and `_height`.
+- A constructor to initialize both.
+- Getters for `width`, `height`, `area`, and `perimeter`.
+- Setters to ensure width and height are **positive**.
+
+Test with a `Rectangle` object and print its area and perimeter.
+
+---  
+
+7-
+Create a `Calculator` class with:
+- Methods `add()`, `subtract()`, `multiply()`, and `divide()`.
+- Each method takes two numbers and returns the result.
+
+Test with different operations.
+
+---  
+
+8-
+Create a `Movie` class with:
+- `title`, `director`, `rating`
+- Constructor with default `rating = "Not Rated"`
+- Method `showDetails()` to print movie info
+
+Test with different movies, some without a rating.
+
+---  
+9-
+Create a base class `SmartDevice` with:
+- `brand`, `model`
+- A method `showDetails()`
+
+Create subclasses:
+- `Smartphone` (adds `os` property)
+- `Laptop` (adds `ram` property)
+
+Override `showDetails()` in both subclasses.
+
+Test with objects of `Smartphone` and `Laptop`.
